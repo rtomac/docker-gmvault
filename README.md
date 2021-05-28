@@ -7,7 +7,7 @@ Allows Google OAuth client ID & secret to be injected via environment variables.
 # Build
 
 ```
-docker build -t gmvault https://github.com/rtomac/gmvault-docker-arm64
+docker build -t gmvault github.com/rtomac/gmvault-docker-arm64.git#main
 ```
 
 # Run
