@@ -38,7 +38,7 @@ See [Gmvault docs](http://gmvault.org/gmail_setup.html#quickstart) for more info
 
 # Environment Variables
 
-The following environments variables can be provided to the container to override conf file settings.
+The following environment variables can be provided to the container to override conf file settings.
 
 | Env variable | Conf section | Conf property |
 | ------------ | ------------ | --------------|
