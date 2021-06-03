@@ -42,7 +42,3 @@ test_set_ini_value GOOGLEOAUTH2__GMVAULT_CLIENT_SECRET GoogleOauth2 gmvault_clie
 
 # Run gmvault with args passed in
 gmvault $@
-
-# Emit config if flag set, after execution (to detect changes to config
-# made by the program)
-[ "${DEBUG_CONFIG}" == "1" ] && cat "${conf_file_path}"
