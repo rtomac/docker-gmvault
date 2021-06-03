@@ -1,13 +1,13 @@
 # Overview
 
-Gmvault running on Alpine (multi-arch).
+[Gmvault](http://gmvault.org) running on Alpine (multi-arch).
 
 Inspired by other good gmvault images (e.g. [tianon/gmvault](https://hub.docker.com/r/tianon/gmvault)), but with multi-arch support and a few additional features to solve minor pain points.
 
 Features:
 - Multi-arch image, including support for arm (Raspberry Pi!)
 - Ability to inject conf file changes via environment variables
-- Pinned to Python 2 (more stable/tested for Gmvault)
+- Pinned to Python 2 (more stable/tested for gmvault)
 - Works around a known 1.9.1 bug that overwrites conf file changes
 
 # Usage
@@ -34,7 +34,7 @@ docker run -it --rm \
     rtomac/gmvault sync --type quick foo.bar@gmail.com
 ```
 
-See [Gmvault docs](http://gmvault.org/gmail_setup.html#quickstart) for more information on gmvault usage and options.
+See [Gmvault docs](http://gmvault.org/in_depth.html#indepth) for more information on gmvault usage and options.
 
 # Environment Variables
 
