@@ -56,17 +56,20 @@ The following environment variables can be provided to the container to override
 
 # Development
 
+Source repository:<br>
+http://github.com/rtomac/docker-gmvault
+
 ## Build and test
 ```
 make test
 ```
 
-## Push to registry
+## Release to Docker Hub
 ```
-make push
+make release
 ```
 
-See variables in [Makefile](Makefile) to alter registry and tagging.
+See targets and variables in [Makefile](https://github.com/rtomac/docker-gmvault/blob/main/Makefile) for more options.
 
 # License
 
